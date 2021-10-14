@@ -1,46 +1,74 @@
-{% extends "layout.html" %}
-{% block content %}
-    <h1>About Latitude</h1>
-    <h3>This website will show visualizatons that were created in previous assignments.</h3>
-    <p>The primary objective is to demonstrate how to use several web development
-       concepts to display information.</p>
-       
-    
-<table class="table">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Site Objectives</th>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="/static/main.css">
+
+  
+  <title>About</title>
+</head>
+<body>
+  <h1>About Latitude</h1>
+  <h3>This website will show visualizatons that were created in previous assignments.</h3>
+  <p>The primary objective is to demonstrate how to use several web development
+     concepts to display information.</p>
+  
+
+     <table class="table">
+
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Site Objectives</th>
+            </tr>
+  
+      </thead>
+      <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Has the name of the site on the left of the nav which allows users to return to the landing page from any page.</td>
           </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td> At the top of every page, have a navigation menu. </td>
+          </tr>
+          <tr>
+              <th scope="row">4</th>
+              <td>Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.</td>
+          </tr>
+          <tr>
+              <th scope="row">5</th>
+              <td>Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).</td>
+          </tr>
+            
+        </tbody>
+  
+  </table>
+  
+  
 
-    </thead>
-    <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Has the name of the site on the left of the nav which allows users to return to the landing page from any page.</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td> At the top of every page, have a navigation menu. </td>
-        </tr>
-        <tr>
-            <th scope="row">4</th>
-            <td>Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.</td>
-        </tr>
-        <tr>
-            <th scope="row">5</th>
-            <td>Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).</td>
-        </tr>
-          
-      </tbody>
 
-</table>
+</body>
 
 
 
-{% endblock %}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
